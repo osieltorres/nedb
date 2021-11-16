@@ -2,22 +2,22 @@
 
 ## The JavaScript Database
 
-> :warning: :warning: :warning: **WARNING:** this library is no longer maintained, and may have bugs and security issues. Feel free to fork but no pull request or security alert will be answered.
+<!-- > :warning: :warning: :warning: **WARNING:** this library is no longer maintained, and may have bugs and security issues. Feel free to fork but no pull request or security alert will be answered. -->
 
 
 **Embedded persistent or in memory database for Node.js, nw.js, Electron and browsers, 100% JavaScript, no binary dependency**. API is a subset of MongoDB's and it's <a href="#speed">plenty fast</a>.
 
-**IMPORTANT NOTE**: Please don't submit issues for questions regarding your code. Only actual bugs or feature requests will be answered, all others will be closed without comment. Also, please follow the <a href="#bug-reporting-guidelines">bug reporting guidelines</a> and check the <a href="https://github.com/louischatriot/nedb/wiki/Change-log" target="_blank">change log</a> before submitting an already fixed bug :)
+<!-- **IMPORTANT NOTE**: Please don't submit issues for questions regarding your code. Only actual bugs or feature requests will be answered, all others will be closed without comment. Also, please follow the <a href="#bug-reporting-guidelines">bug reporting guidelines</a> and check the <a href="https://github.com/louischatriot/nedb/wiki/Change-log" target="_blank">change log</a> before submitting an already fixed bug :) -->
 
-## Support NeDB development
+<!-- ## Support NeDB development -->
 
-<img src="http://i.imgur.com/mpwi4lf.jpg">
+<!-- <img src="http://i.imgur.com/mpwi4lf.jpg"> -->
 
-No time to <a href="#pull-requests">help out</a>? You can support NeDB development by sending money or bitcoins!
+<!-- No time to <a href="#pull-requests">help out</a>? You can support NeDB development by sending money or bitcoins! -->
 
-Money: [![Donate to author](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=louis%2echatriot%40gmail%2ecom&lc=US&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest)
+<!-- Money: [![Donate to author](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=louis%2echatriot%40gmail%2ecom&lc=US&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest) -->
 
-Bitcoin address: 1dDZLnWpBbodPiN8sizzYrgaz5iahFyb1
+<!-- Bitcoin address: 1dDZLnWpBbodPiN8sizzYrgaz5iahFyb1 -->
 
 
 ## Installation, tests
@@ -700,7 +700,7 @@ Connect and Express, backed by nedb
 * If you've outgrown NeDB, switching to MongoDB won't be too hard as it is the same API. Use <a href="https://github.com/louischatriot/nedb-to-mongodb" target="_blank">this utility</a> to transfer the data from a NeDB database to a MongoDB collection
 * An ODM for NeDB: <a href="https://github.com/scottwrobinson/camo" target="_blank">Camo</a>
 
-## Pull requests
+<!-- ## Pull requests
 **Important: I consider NeDB to be feature-complete, i.e. it does everything I think it should and nothing more. As a general rule I will not accept pull requests anymore, except for bugfixes (of course) or if I get convinced I overlook a strong usecase. Please make sure to open an issue before spending time on any PR.**
 
 If you submit a pull request, thanks! There are a couple rules to follow though to make it manageable:
@@ -711,18 +711,18 @@ If you submit a pull request, thanks! There are a couple rules to follow though 
 * Don't forget tests for your new feature. Also don't forget to run the whole test suite before submitting to make sure you didn't introduce regressions.
 * Do not build the browser version in your branch, I'll take care of it once the code is merged.
 * Update the readme accordingly.
-* Last but not least: keep in mind what NeDB's mindset is! The goal is not to be a replacement for MongoDB, but to have a pure JS database, easy to use, cross platform, fast and expressive enough for the target projects (small and self contained apps on server/desktop/browser/mobile). Sometimes it's better to shoot for simplicity than for API completeness with regards to MongoDB.
+* Last but not least: keep in mind what NeDB's mindset is! The goal is not to be a replacement for MongoDB, but to have a pure JS database, easy to use, cross platform, fast and expressive enough for the target projects (small and self contained apps on server/desktop/browser/mobile). Sometimes it's better to shoot for simplicity than for API completeness with regards to MongoDB. -->
 
-## Bug reporting guidelines
+<!-- ## Bug reporting guidelines
 If you report a bug, thank you! That said for the process to be manageable please strictly adhere to the following guidelines. I'll not be able to handle bug reports that don't:
 * Your bug report should be a self-containing gist complete with a package.json for any dependencies you need. I need to run through a simple `git clone gist; npm install; node bugreport.js`, nothing more.
 * It should use assertions to showcase the expected vs actual behavior and be hysteresis-proof. It's quite simple in fact, see this example: https://gist.github.com/louischatriot/220cf6bd29c7de06a486
 * Simplify as much as you can. Strip all your application-specific code. Most of the time you will see that there is no bug but an error in your code :)
 * 50 lines max. If you need more, read the above point and rework your bug report. If you're **really** convinced you need more, please explain precisely in the issue.
-* The code should be Javascript, not Coffeescript.
+* The code should be Javascript, not Coffeescript. -->
 
-### Bitcoins
-You don't have time? You can support NeDB by sending bitcoins to this address: 1dDZLnWpBbodPiN8sizzYrgaz5iahFyb1
+<!-- ### Bitcoins
+You don't have time? You can support NeDB by sending bitcoins to this address: 1dDZLnWpBbodPiN8sizzYrgaz5iahFyb1 -->
 
 
 ## License 
